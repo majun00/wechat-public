@@ -1,7 +1,7 @@
 var Koa=require('koa')
 var path=require('path')
 var wechat=require('./wechat/g')
-var =require('./libs/util')
+var util=require('./libs/util')
 
 var wechat_file=path.join(__dirname,'./config/wechat.txt')
 
